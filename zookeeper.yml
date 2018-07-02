@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: zookeeper
-          image: zookeeper:latest
+          image: debezium/zookeeper:latest
           ports:
             - containerPort: 2181
         # - name: kafka
